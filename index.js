@@ -58,14 +58,14 @@ if (global.db) global.db.data = {
 }
 
 function title() {
-    console.log(chalk.bold.green(figlet.textSync('Haruka Bot', {
+    console.log(chalk.bold.green(figlet.textSync('Naura Botz', {
         font: 'Standard',
         horizontalLayout: 'default',
         verticalLayout: 'default',
         width: 80,
         whitespaceBreak: false
     })))
-    console.log(chalk.yellow(`\n${chalk.yellow('Created By Zeeone Ofc')}\n`))
+    console.log(chalk.yellow(`\n${chalk.yellow("Created By Pak Zainal Dev's")}\n`))
 }
 const store = makeInMemoryStore({ logger: pino().child({ level: 'silent', stream: 'store' }) })
 
@@ -103,7 +103,7 @@ const {
          }
          return message;
       },
-        browser: ['Haruka Multi Device','Safari','1.0.0'],
+        browser: ['Naura Botz Multi Device','Safari','1.0.0'],
         auth: state
     })
   if (haruka.user && haruka.user.id) haruka.user.jid = jidNormalizedUser(haruka.user.id)
